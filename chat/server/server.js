@@ -21,7 +21,7 @@ io.on('connection', (socket) => {
 
     socket.on('login', (nickname) => {
         users.push({ nick: nickname, socketId: socket.id });
-        socket.emit('signedIn', { isLoggedIn: true, nick: nickname, socketId: socket.id });
+        socket.emit('signedIn', true);
         socket.broadcast.emit('loggedIn', `${nickname} has joined the chat`);
     });
 
