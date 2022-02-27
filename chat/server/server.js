@@ -14,7 +14,7 @@ io.on('connection', (socket) => {
 
     socket.on('login', (nickname) => {
         console.log(nickname)
-        socket.emit('signedIn', nickname);
+        socket.emit('signedIn', true);
     });
 
     socket.emit('some event', 'some data');
