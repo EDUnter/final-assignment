@@ -11,4 +11,19 @@ io.on('connection', (socket) => {
     socket.on('message', (message) => {
         io.emit('message', message);
     });
+
+    socket.on('login', (nickname) => {
+        console.log(nickname)
+        socket.emit('signedIn', nickname);
+    });
+
+    socket.emit('some event', 'some data');
+
+    io.emit('some event', 'some data');
+
+    socket.broadcast.emit('some event', 'some data');
+
+    socket.on('disconnect', () => {
+        console.log('disconnected');
+    });
 });
