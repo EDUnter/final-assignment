@@ -24,7 +24,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-The Final Assigment aims consists a chat that people can use to communicate with each other.
+The Final Assigment consists in a chat that people can use to communicate with each other.
 
 ## :memo: License
 
