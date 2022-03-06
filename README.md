@@ -1,7 +1,5 @@
-# final-assignment
-
 <h1 align="center">
-    <img alt="FinalAssignment" title="#delicinha" src=".github/finalassignment.svg" width="200px" />
+    <img alt="FinalAssignment" title="#chat" src="finalassignment.svg" width="200px" />
 </h1>
 
 <h4 align="center">
